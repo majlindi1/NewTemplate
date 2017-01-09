@@ -15,8 +15,7 @@ html {
     text-rendering: optimizeLegibility;
     font-size: 20px;
     font-weight:300;
-    font-family: 'Source Sans Pro', sans-serif;
-
+    font-family:'Raleway';
 }
 
 .clearfix {zoom :1}
@@ -52,12 +51,7 @@ ul.topnav {
 }
 
 /* Float the list items side by side */
-ul.topnav li {
-	float: left;
-	border-right:1px solid white;
-	padding-left:10px;
-}
-
+ul.topnav li {float: left;}
 
 
 ul.topnav .admin {
@@ -75,11 +69,7 @@ ul.topnav li a {
 }
 
 /* Change background color of links on hover */
-<<<<<<< HEAD
-ul.topnav li a:hover {background-color: #e6e6e6;
-=======
 ul.topnav li a:hover {background-color: #e2e2e2;
->>>>>>> origin/master
 color:black;
 }
 
@@ -121,21 +111,15 @@ ul.topnav li.icon {display: none;}
     list-style: none;
     overflow: hidden;
     padding:0 0 0 10px;
-	
 }
 .oraret-bus i {
     color:white;
-	
 }
 .oraret-bus ul li {
     display: inline-block;
     padding:5px 95px 5px 5px;
     color:white;
-	font-size:80%;
 }
-
-
-
 .oraret-bus ul li i{
     margin-right:10px;
 }
